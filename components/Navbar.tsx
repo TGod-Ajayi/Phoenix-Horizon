@@ -109,6 +109,7 @@ import {
         {NAV_ITEMS.map((navItem) => (
           <Box key={navItem.label}>
             <Popover trigger={'hover'} placement={'bottom-start'}>
+               {/* @ts-ignore */}
               <PopoverTrigger>
                 <Link
                   p={2}
