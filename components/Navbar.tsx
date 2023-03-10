@@ -55,7 +55,8 @@ import {
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
-              Taitum
+             <Button as={"a"} href={"/"} variant={"link"}> RAHISI</Button>
+             
             </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>

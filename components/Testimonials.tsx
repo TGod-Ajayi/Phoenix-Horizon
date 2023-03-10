@@ -90,8 +90,8 @@ export default function Testimonials() {
     <Box bg={useColorModeValue('gray.100', 'gray.700')}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Our Clients Speak</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Heading>Review</Heading>
+          <Text>10,000+ Happy Customers</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
