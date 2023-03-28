@@ -48,9 +48,9 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }} ml={"9.8%"}>
+          <Flex flex={{ base: 1 }} justify={{ base: 'right', md: 'start' }} ml={"9.8%"}>
             <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
+              textAlign={useBreakpointValue({ base: 'right', md: 'left' })}
               fontFamily={'heading'}
               >
               Logo
