@@ -5,7 +5,7 @@ import { Box, Button, Flex, Heading, HStack, Text,Icon, Container  } from "@chak
 export default function Section5() {
   return (
    
-        <Box bg={'grey'} w={'100%'} h={'700px'} textAlign={'center'}>
+        <Box bg={'grey'} maxW={"8xl"} minH={'100vh'} textAlign={'center'}>
             <Heading fontSize={'42px'}>Our Happy Clients</Heading>
             <Text fontSize={'18px'}>
             Our unique process

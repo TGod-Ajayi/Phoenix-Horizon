@@ -6,7 +6,7 @@ import {GiWallet} from 'react-icons/gi'
 
 export default function Section2() {
   return (
-         <Box as={'section'} maxW={"8xl"} minH={'100vh'} pt={{base:"10px", lg: "100px"}}>
+         <Box as={'section'} maxW={"8xl"} minH={'100vh'} pt={{base:"38px", lg: "100px"}}>
             <Box textAlign={'center'} mb={"50px"}>
             <Heading fontSize={{ base: 'xl', md: '4xl', lg: '5xl' }}>Better Tools to Manage your Career</Heading>
             <Text fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}> Our unique process gives you peace of mind</Text>

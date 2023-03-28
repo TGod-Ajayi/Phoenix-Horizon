@@ -31,17 +31,19 @@ export default function Hero() {
               <Button bg={"#00D0D0"} borderRadius='full' leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />} >Watch our video</Button>
               </HStack>
             </Box>
-            <Box mr={{base: '10', lg: '120'}} mt={{base:'20',lg:'50'}} ml={{base:'10',lg:'60'}} mb={{base: '10'}}>
+            <Box mr={{base: '10', lg: '120'}} mt={{base:'20',lg:'50'}} 
+            ml={{base:'20',lg:'60'}}
+             mb={{base: '28'}}>
               <Image src={mockup} alt="Mobile Image" width={300} height={250} />
             </Box>
           </Flex>
         </Box>
 
-        <Box w={"800px"} h={"110px"} bg='white' ml={"280px"} position={"absolute"} zIndex={"1"}
-        top={670}
+        <Box w={{base:'400px', lg: "800px"}} h={{base:'80px', lg: "110px"}} bg='white' ml={{base:'65px', lg: "280px"}} position={"absolute"} zIndex={"1"}
+        top={{base:'1120', lg: '670'}} 
         boxShadow={"0px 48px 60px rgba(108, 145, 181, 0.09)"}>
             <Flex justifyContent={'center'} justify="space-between" mt={"20px"}>
-              <Box mr={'40px'} mt={'10px'}>
+              <Box mr={'40px'} mt={'10px'} ml={{base: '12px'}}>
               <Image src={slack} alt="Slack" width={120} height={60} />
               </Box>
                
@@ -53,7 +55,7 @@ export default function Hero() {
                 <Image src={apple} alt="Slack" width={120} height={60}/>
               </Box>
 
-              <Box mr={'40px'}>
+              <Box mr={{base:'12px', lg:'40px'}}>
               <Image src={forbes} alt="Slack" width={120} height={60}/>
               </Box>
                
