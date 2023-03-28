@@ -25,7 +25,7 @@ export default function Hero() {
                 payouts, & manage their businesses online.
               </Text>
               <HStack>
-              <Button bg={'#FFFFFF'} color={"rgba(16, 12, 46, 0.9)"} mr={"10"}>
+              <Button bg={'#FFFFFF'} borderRadius={'30'} color={"rgba(16, 12, 46, 0.9)"} mr={"10"}>
                 Download
               </Button>
               <Button bg={"#00D0D0"} borderRadius='full' leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />} >Watch our video</Button>
@@ -37,8 +37,8 @@ export default function Hero() {
           </Flex>
         </Box>
 
-        <Box w={"800px"} h={"110px"} mt={"50px"} bg='white' ml={"280px"} position={"absolute"} zIndex={"1"}
-        
+        <Box w={"800px"} h={"110px"} bg='white' ml={"280px"} position={"absolute"} zIndex={"1"}
+        top={670}
         boxShadow={"0px 48px 60px rgba(108, 145, 181, 0.09)"}>
             <Flex justifyContent={'center'} justify="space-between" mt={"20px"}>
               <Box mr={'40px'} mt={'10px'}>
@@ -56,8 +56,6 @@ export default function Hero() {
               <Box mr={'40px'}>
               <Image src={forbes} alt="Slack" width={120} height={60}/>
               </Box>
-               
-             
                
 
                 

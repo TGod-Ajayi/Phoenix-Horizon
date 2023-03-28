@@ -6,7 +6,7 @@ import {GiWallet} from 'react-icons/gi'
 
 export default function Section2() {
   return (
-         <Box as={'section'} maxW={"8xl"} minH={'100vh'} pt={{base:"10px", lg: "100px"}} bg={"red.200"}>
+         <Box as={'section'} maxW={"8xl"} minH={'100vh'} pt={{base:"10px", lg: "100px"}}>
             <Box textAlign={'center'} mb={"50px"}>
             <Heading fontSize={{ base: 'xl', md: '4xl', lg: '5xl' }}>Better Tools to Manage your Career</Heading>
             <Text fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}> Our unique process gives you peace of mind</Text>
@@ -17,7 +17,7 @@ export default function Section2() {
             mr={{base:'10px', lg:"30px"}}
             mb={{base: '10px'}}
             >
-                <Box  p={"20px"} h={"250px"} w={"340px"} bg={"yellow"}>
+                <Box  p={"20px"} h={"250px"} w={"340px"}>
                     
                         <GiWallet />
                         <Heading my={"10px"} >wallet</Heading>
@@ -26,7 +26,7 @@ export default function Section2() {
                     
                 </Box>
 
-                <Box  p={"20px"} textAlign={'left'} h={"250px"} w={"340px"} bg={"yellow"} boxShadow={'32px 49px 80px rgba(125, 149, 169, 0.12)'}>
+                <Box  p={"20px"} textAlign={'left'} h={"250px"} w={"340px"} boxShadow={'32px 49px 80px rgba(125, 149, 169, 0.12)'}>
                    
                         <GiWallet />
                         <Heading my={"10px"}>Assets</Heading>
@@ -35,7 +35,7 @@ export default function Section2() {
                     
                 </Box>
 
-                <Box  p={"20px"} textAlign={'left'} h={"250px"} w={"340px"} bg={"yellow"}>
+                <Box  p={"20px"} textAlign={'left'} h={"250px"} w={"340px"}>
                     
                         <GiWallet />
                         <Heading my={"10px"}>Campaigns</Heading>
