@@ -8,8 +8,11 @@ export default function Section3() {
     <Box as={'section'} maxW={"8xl"} minH={'100vh'}  pt={"20px"}>
         <Flex justify="space-between" mt={{base:'10', lg:'100'}} direction={{ base: 'column', md: 'row' }}>
             <Box ml={"130"} w={"574"}pr={"10px"} mt={{base: '100', lg:'5'}}>   
-            <Heading fontSize={{ base: 'xl', md: 'xl', lg: '2xl' }}>Get paid</Heading>
-            <Heading mt={"15px"} mb={"30px"} fontSize={{ base: '2xl', md: 'xl', lg: '5xl' }}>Your Paycheck will be automatically Deposited up to two days early</Heading>
+            <Heading fontSize={{ base: 'xl', md: 'xl', lg: '2xl' }} color={'#5CB5FF'}>Get paid</Heading>
+            <Heading mt={"15px"} mb={"30px"} 
+            fontSize={{ base: '2xl', md: 'xl', lg: '5xl' }}
+            color={'#082854'}
+            >Your Paycheck will be automatically Deposited up to two days early</Heading>
             <Text fontSize={{ base: 'md', md: 'sm', lg: 'lg' }}>Build your financial literacy within a transparent community. Follow other investors, 
                 share insights with people from different professional backgrounds, 
                 and never be alone with your charts & numbers.</Text>
