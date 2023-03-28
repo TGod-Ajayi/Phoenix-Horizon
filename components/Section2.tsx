@@ -6,13 +6,17 @@ import {GiWallet} from 'react-icons/gi'
 
 export default function Section2() {
   return (
-         <Box as={'section'} w={"8xl"} minH={'100vh'} pt={"100px"} bg={"red.200"}>
+         <Box as={'section'} maxW={"8xl"} minH={'100vh'} pt={{base:"10px", lg: "100px"}} bg={"red.200"}>
             <Box textAlign={'center'} mb={"50px"}>
-            <Heading fontSize={"42px"}>Better Tools to Manage your Career</Heading>
-            <Text fontSize={"18px"}> Our unique process gives you peace of mind</Text>
+            <Heading fontSize={{ base: 'xl', md: '4xl', lg: '5xl' }}>Better Tools to Manage your Career</Heading>
+            <Text fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}> Our unique process gives you peace of mind</Text>
             </Box>
             <Flex justify="space-between" >
-            <Stack spacing={7} direction = {['column', 'column', 'row']} textAlign= {['center', 'center', 'left']} ml={"150px"} mr={"30px"}>
+            <Stack spacing={7} direction = {['column', 'column', 'row']} textAlign= {['center', 'center', 'left']}
+             ml={{base:'90px', lg: "150px"}} 
+            mr={{base:'10px', lg:"30px"}}
+            mb={{base: '10px'}}
+            >
                 <Box  p={"20px"} h={"250px"} w={"340px"} bg={"yellow"}>
                     
                         <GiWallet />

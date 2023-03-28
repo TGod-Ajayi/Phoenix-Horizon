@@ -5,7 +5,7 @@ import illu3 from "../public/illustration3.png"
 
 export default function Section3() {
   return (
-    <Box as={'section'} w={"1350px"} bg={"yellow.400"} h={"800px"} pt={"20px"}>
+    <Box as={'section'} maxW={"8xl"} minH={'100vh'} bg={"yellow.400"} pt={"20px"}>
         <Flex justify="space-between" mt={100}>
             <Box ml={"130"} w={"574"} bg={"green"} pr={"10px"}>   
             <Heading >Get paid</Heading>

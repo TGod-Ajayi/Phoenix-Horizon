@@ -31,7 +31,7 @@ export default function Hero() {
               <Button bg={"#00D0D0"} borderRadius='full' leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />} >Watch our video</Button>
               </HStack>
             </Box>
-            <Box mr={{base: '10', lg: '120'}} mt={{base:'20',lg:'50'}} ml={{base:'10',lg:'60'}} >
+            <Box mr={{base: '10', lg: '120'}} mt={{base:'20',lg:'50'}} ml={{base:'10',lg:'60'}} mb={{base: '10'}}>
               <Image src={mockup} alt="Mobile Image" width={300} height={250} />
             </Box>
           </Flex>
