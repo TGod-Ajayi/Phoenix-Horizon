@@ -10,12 +10,11 @@ import forbes from "../public/Forbes.png"
 
 export default function Hero() {
   return (
-    <>
-      <Box bg={"#00D0D0"} maxW={"8xl"} minH={'100vh'} > 
-        <Box >
-          <Flex direction={{ base: 'column', md: 'row' }} ml={"9.8%"} >
-            <Box  color={"#FFFFFF"} textAlign={{base: 'center', lg:'left'}} mt={'34'} w={{base:'sm' ,lg:'2xl'}}>
-              <Heading fontSize={{ base: '3xl', md: '4xl', lg: '6xl' }} fontWeight={"700"}>
+      <Box as="section" overflow={'hidden'} bg={"#00D0D0"} w="100%" minH={'100vh'} > 
+        <Box>
+          <Flex direction={{ base: 'column', md: 'column' , lg: 'row' }} ml={"9.8%"} >
+            <Box  color={"#FFFFFF"} textAlign={{base: 'center', md: 'left', lg:'left'}} mt={'34'} w={{base:'xs' , md: 'md',lg:'2xl'}}>
+              <Heading fontSize={{ base: '3xl', md: '4xl', lg: '6xl' }} fontWeight={"700"}lineHeight={'110%'}>
                 Payments Infrastructure for the internet{" "}
               </Heading>
               <Text mt={"25"} mb={"10"} fontSize={{ base: 'md', md: 'sm', lg: 'lg' }}>
@@ -25,10 +24,16 @@ export default function Hero() {
                 payouts, & manage their businesses online.
               </Text>
               <HStack>
-              <Button bg={'#FFFFFF'} borderRadius={'30'} color={"rgba(16, 12, 46, 0.9)"} mr={"10"}>
+              <Button
+               bg={'#FFFFFF'} 
+               borderRadius={'30'}
+                color={"rgba(16, 12, 46, 0.9)"} 
+                mr={"10"}
+                size={'lg'}
+                >
                 Download
               </Button>
-              <Button bg={"#00D0D0"} borderRadius='full' leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />} >Watch our video</Button>
+              <Button size={'lg'} bg={"#00D0D0"} borderRadius='full' leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />} >Watch our video</Button>
               </HStack>
             </Box>
             <Box mr={{base: '10', lg: '120'}} mt={{base:'20',lg:'50'}} 
@@ -39,8 +44,11 @@ export default function Hero() {
           </Flex>
         </Box>
 
-        <Box w={{base:'400px', lg: "800px"}} h={{base:'80px', lg: "110px"}} bg='white' ml={{base:'65px', lg: "280px"}} position={"absolute"} zIndex={"1"}
-        top={{base:'1120', lg: '670'}} 
+        <Box w={{base:'300px', md: '600px', lg: "800px"}} h={{base:'80px', lg: "110px"}} bg='white' 
+        ml={{base:'50px',md:'100px', lg: "280px"}} 
+        position={"absolute"} 
+        zIndex={"1"}
+        top={{base:'950',md:'1180', lg: '670'}} 
         boxShadow={"0px 48px 60px rgba(108, 145, 181, 0.09)"}>
             <Flex justifyContent={'center'} justify="space-between" mt={"20px"}>
               <Box mr={'40px'} mt={'10px'} ml={{base: '12px'}}>
@@ -64,7 +72,6 @@ export default function Hero() {
             </Flex>
         </Box>
       </Box>
-    </>
   );
 }
 
