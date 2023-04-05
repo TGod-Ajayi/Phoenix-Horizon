@@ -39,7 +39,7 @@ export default function Hero() {
             <Box mr={{base: '10', lg: '120'}} mt={{base:'20',lg:'50'}} 
             ml={{base:'20',lg:'60'}}
              mb={{base: '28'}}>
-              <Image src={mockup} alt="Mobile Image" width={300} height={250} />
+              <Image src={mockup} alt="Mobile Image" width={300} height={200} />
             </Box>
           </Flex>
         </Box>
@@ -48,7 +48,7 @@ export default function Hero() {
         ml={{base:'50px',md:'100px', lg: "280px"}} 
         position={"absolute"} 
         zIndex={"1"}
-        top={{base:'950',md:'1180', lg: '670'}} 
+        top={{base:'950',md:'1180', lg: '740'}} 
         boxShadow={"0px 48px 60px rgba(108, 145, 181, 0.09)"}>
             <Flex justifyContent={'center'} justify="space-between" mt={"20px"}>
               <Box mr={'40px'} mt={'10px'} ml={{base: '12px'}}>
